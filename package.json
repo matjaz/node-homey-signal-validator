@@ -1,0 +1,19 @@
+{
+  "name": "node-homey-microcontroller-validator",
+  "version": "1.0.0",
+  "description": " Validator methods for Homey's Microcontroller",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://WeeJeWel@github.com/athombv/node-homey-microcontroller-validator.git"
+  },
+  "author": "Athom B.V.",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/athombv/node-homey-microcontroller-validator/issues"
+  },
+  "homepage": "https://github.com/athombv/node-homey-microcontroller-validator#readme"
+}
