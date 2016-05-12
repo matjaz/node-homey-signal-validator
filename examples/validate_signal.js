@@ -1,4 +1,4 @@
-var SignalValidator = require('..').SignalValidator;
+var SignalValidator = require('..');
 
 var definition = {
 	sof: [], // Start of frame

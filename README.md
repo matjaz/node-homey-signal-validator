@@ -1,2 +1,2 @@
-# node-homey-microcontroller-validator
-Validator methods for Homey's Microcontroller
+# node-homey-signal-validator
+Validator methods for Homey Signals

@@ -1,19 +1,19 @@
 {
-  "name": "node-homey-microcontroller-validator",
+  "name": "homey-signal-validator",
   "version": "1.0.0",
-  "description": " Validator methods for Homey's Microcontroller",
+  "description": "  Validator methods for Homey Signals",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://WeeJeWel@github.com/athombv/node-homey-microcontroller-validator.git"
+    "url": "git+https://WeeJeWel@github.com/athombv/node-homey-signal-validator.git"
   },
   "author": "Athom B.V.",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/athombv/node-homey-microcontroller-validator/issues"
+    "url": "https://github.com/athombv/node-homey-signal-validator/issues"
   },
-  "homepage": "https://github.com/athombv/node-homey-microcontroller-validator#readme"
+  "homepage": "https://github.com/athombv/node-homey-signal-validator#readme"
 }

@@ -1,3 +1,3 @@
 "use strict";
 
-module.exports.SignalValidator = require('./lib/SignalValidator/index.js');
+module.exports = require('./lib/SignalValidator/index.js');
