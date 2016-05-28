@@ -18,17 +18,11 @@ var opts = {
 	frequency: '433'
 }
 
-try {
-	var signal = new SignalValidator(definition, opts);
+var signal = new SignalValidator(definition, opts);
 
-	var validResult = signal.valid();
-	if( validResult === true ) {
-		console.log('valid signal!');
-	} else {
-		console.log('invalid signal!');
-		console.log(JSON.stringify(validResult, false, 4));
-	}
-
-} catch(e){
-	console.error(e.stack);
+if( signal.valid() ) {
+	console.log('valid signal!');
+} else {
+	console.log('invalid signal!');
+	console.log(JSON.stringify(signal.errors, false, 4));
 }
